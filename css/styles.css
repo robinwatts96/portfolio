@@ -371,4 +371,40 @@ template {
   display: none;
 }
 
+/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.nav-bar-li li {
+  font-size: .75em;
+}
+
+/* line 6, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: -1em;
+}
+
+/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar {
+  width: 100%;
+  height: 20vh;
+  background-color: green;
+  border-bottom-right-radius: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 13, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 18, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li li {
+  display: inline;
+  padding: 0 .3em;
+}
+
 /*# sourceMappingURL=styles.css.map */
