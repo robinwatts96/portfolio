@@ -23,8 +23,25 @@
     align-items: center; 
 }
 
+
+// Skills & Education
+.background-blue {
+    background-color: $primary;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-container {
+    background-color: white;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 5%;
+}
+
 // Portfolio
 .column {
-  background-color: red;
   border: 1px black solid; 
 }

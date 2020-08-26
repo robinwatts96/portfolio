@@ -410,9 +410,26 @@ header h2 {
   align-items: center;
 }
 
-/* line 27, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 28, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.background-blue {
+  background-color: #033e8c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 37, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.skills-container {
+  background-color: white;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 5%;
+}
+
+/* line 45, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .column {
-  background-color: red;
   border: 1px black solid;
 }
 
