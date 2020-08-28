@@ -2,7 +2,7 @@
 .nav-bar {
     width: 100%;
     height: 20vh;
-    background-color: $primary;
+    background: linear-gradient($primary 20%, $primaryFade 100%);
     border-bottom-right-radius: 90%;
     display: flex;
     flex-direction: column;

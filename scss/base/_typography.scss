@@ -1,3 +1,7 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
 // Nav bar
 .nav-bar-li li {
     font-size: .75em;
@@ -8,4 +12,27 @@ header h2 {
     margin-bottom: 0;
     margin-top: -1em;
     color: white;
+}
+
+// Jumbotron
+.lead {
+    color: $secondary;
+}
+
+// Skills & Education
+.education-container p {
+    font-size:.8rem;
+    
+}
+
+.skills-education-container h3 {
+    margin-top: 1em;
+    border-bottom: 1px solid $secondary;
+    padding-bottom: 3px;
+}
+
+.skills-education-container h3,
+.skills-education-container h4 {
+    font-weight: bold;
+    margin: 1em 0;
 }

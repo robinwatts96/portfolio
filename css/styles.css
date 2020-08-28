@@ -371,17 +371,46 @@ template {
   display: none;
 }
 
-/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+/* line 1, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+* {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* line 6, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
 .nav-bar-li li {
   font-size: .75em;
 }
 
-/* line 6, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+/* line 10, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
 header h2 {
   font-size: 1.5em;
   margin-bottom: 0;
   margin-top: -1em;
   color: white;
+}
+
+/* line 18, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.lead {
+  color: #e1785b;
+}
+
+/* line 23, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.education-container p {
+  font-size: .8rem;
+}
+
+/* line 28, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.skills-education-container h3 {
+  margin-top: 1em;
+  border-bottom: 1px solid #e1785b;
+  padding-bottom: 3px;
+}
+
+/* line 34, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.skills-education-container h3,
+.skills-education-container h4 {
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
@@ -403,7 +432,7 @@ header h2 {
 .arrow-container {
   width: 100%;
   height: 10vh;
-  background-color: #f25050;
+  background-color: #e1785b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -412,7 +441,7 @@ header h2 {
 
 /* line 28, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .background-blue {
-  background-color: #033e8c;
+  background-color: #85ccc8;
   width: 100vw;
   padding: 3em 0;
   display: flex;
@@ -425,7 +454,7 @@ header h2 {
   background-color: white;
   width: 80vw;
   max-width: 675px;
-  border-radius: 5%;
+  border-radius: .5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -443,9 +472,10 @@ header h2 {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 }
 
-/* line 53, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 54, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .skills-row {
   display: flex;
   justify-content: center;
@@ -453,14 +483,14 @@ header h2 {
   height: 100%;
 }
 
-/* line 60, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 61, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .skills-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 65, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 66, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .column {
   border: 1px black solid;
 }
@@ -497,7 +527,7 @@ header h2 {
 .nav-bar {
   width: 100%;
   height: 20vh;
-  background-color: #033e8c;
+  background: linear-gradient(#85ccc8 20%, rgba(133, 204, 200, 0.2) 100%);
   border-bottom-right-radius: 90%;
   display: flex;
   flex-direction: column;
