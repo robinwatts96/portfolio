@@ -28,34 +28,37 @@
 .background-blue {
     background-color: $primary;
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 3em 0;
+    @include flexColumnCenter;
 }
 
 .skills-education-container {
     background-color: white;
     width: 80vw;
     max-width: 675px;
-    height: 80vh;
     border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexColumnCenter;
+}
+
+.education-container {
+    @include flexColumnCenter;
 }
 
 .skills-img-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .skills-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1% 0;
-    padding: 0 5%;
+    height: 100%;
+}
+
+.skills-container {
+    @include flexColumnCenter;
 }
 
 // Portfolio

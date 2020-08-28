@@ -1,0 +1,6 @@
+// flex column
+@mixin flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

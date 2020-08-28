@@ -414,28 +414,35 @@ header h2 {
 .background-blue {
   background-color: #033e8c;
   width: 100vw;
-  height: 100vh;
+  padding: 3em 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-/* line 37, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 35, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .skills-education-container {
   background-color: white;
   width: 80vw;
   max-width: 675px;
-  height: 80vh;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 48, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 43, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 47, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .skills-img-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 /* line 53, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
@@ -443,11 +450,17 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1% 0;
-  padding: 0 5%;
+  height: 100%;
 }
 
-/* line 62, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 60, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 65, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .column {
   border: 1px black solid;
 }
@@ -475,8 +488,9 @@ header h2 {
 
 /* line 20, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
 .skills-container img {
-  width: 20%;
-  padding: 0 2em;
+  width: 100px;
+  height: auto;
+  padding: 1em 2em;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
