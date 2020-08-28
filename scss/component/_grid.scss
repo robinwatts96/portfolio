@@ -8,7 +8,7 @@
 }
 
 .jumbotron {
-    background-color: hsl(0,0%,96%);
+    background-color: hsl(0,0%,100%);
     margin-bottom: 0;
 }
 
@@ -34,11 +34,28 @@
     justify-content: center;
 }
 
-.skills-container {
+.skills-education-container {
     background-color: white;
     width: 80vw;
+    max-width: 675px;
     height: 80vh;
     border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0;
+    padding: 0 5%;
 }
 
 // Portfolio

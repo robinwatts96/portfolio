@@ -395,7 +395,7 @@ header h2 {
 
 /* line 10, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .jumbotron {
-  background-color: whitesmoke;
+  background-color: white;
   margin-bottom: 0;
 }
 
@@ -421,14 +421,33 @@ header h2 {
 }
 
 /* line 37, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
-.skills-container {
+.skills-education-container {
   background-color: white;
   width: 80vw;
+  max-width: 675px;
   height: 80vh;
   border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* line 45, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+/* line 48, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.skills-img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 53, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0;
+  padding: 0 5%;
+}
+
+/* line 62, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .column {
   border: 1px black solid;
 }
@@ -447,6 +466,17 @@ header h2 {
   width: 2rem;
   height: 2rem;
   fill: white;
+}
+
+/* line 16, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+#treehouse {
+  width: 50%;
+}
+
+/* line 20, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+.skills-container img {
+  width: 20%;
+  padding: 0 2em;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
