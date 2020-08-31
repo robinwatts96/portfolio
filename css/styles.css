@@ -528,7 +528,7 @@ header h2 {
 }
 
 /* line 29, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
-#web-app {
+.row img {
   width: 18em;
 }
 
