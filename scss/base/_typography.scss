@@ -38,8 +38,15 @@ h3,
 }
 
 // Portfolio
-// #portfolio-header {
-//     text-align: center;
-//     border-bottom: 1px solid black;
-//     margin: 1em;
-// }
+.project-inner-html p {
+    padding: 0 1em;
+    text-align: center;
+}
+
+.project-inner-html h4 {
+
+    border-bottom: 1px solid $primary;
+    padding-bottom: 3px;
+    font-weight: bold;
+    margin: 1em 0;
+}

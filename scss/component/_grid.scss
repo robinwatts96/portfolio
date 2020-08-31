@@ -80,3 +80,13 @@
     width: 80vw;
 }
 
+// Project
+.project-inner-html {
+    @include flexColumnCenter;
+    justify-content: center;
+    border: 1px solid $secondary;
+    border-radius: 5%;
+    height: 286px;
+    width: 286px;
+}
+

@@ -413,6 +413,34 @@ h3,
   margin: 1em 0;
 }
 
+/* line 41, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.project-inner-html p {
+  padding: 0 1em;
+  text-align: center;
+}
+
+/* line 46, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.project-inner-html h4 {
+  border-bottom: 1px solid #85ccc8;
+  padding-bottom: 3px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.project-inner-html #project-github {
+  background-color: #85ccc8;
+  color: white;
+  display: inline-block;
+}
+
+/* line 8, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.project-inner-html #project-demo {
+  background-color: #e1785b;
+  color: white;
+  display: inline-block;
+}
+
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .intro-container {
   width: 100%;
@@ -506,6 +534,18 @@ h3,
   margin: 0 auto;
   justify-content: center;
   width: 80vw;
+}
+
+/* line 84, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.project-inner-html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1785b;
+  border-radius: 5%;
+  height: 286px;
+  width: 286px;
 }
 
 /* line 1, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */

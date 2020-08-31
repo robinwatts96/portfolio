@@ -11,11 +11,11 @@ const showProjectDesc = project => {
     if (projectTitle === p.title) {
       const {title, desc, gitHub} = p;
       project.innerHTML = 
-        `<div>
-          <h2>${title}</h2>
+        `<div class="project-inner-html">
+          <h4>${title}</h4>
           <p>${desc}</p>
-          <a href="gitHub" target="_blank">Git Hub</a>
-          <a href="Demo" target="_blank">Demo</a>
+          <a id="project-github" href="gitHub" target="_blank">Git Hub</a>
+          <a id="project-demo" href="Demo" target="_blank">Demo</a>
         </div>`;
     }
   });
