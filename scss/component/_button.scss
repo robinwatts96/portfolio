@@ -1,12 +1,26 @@
 // Project
-.project-inner-html #project-github {
+#project-github {
     background-color: $primary;
     color: white;
-    display: inline-block;
+    margin-right: 12px;
+    padding: 0 7px;
+    border-radius: 10px;
 }
 
-.project-inner-html #project-demo {
+#project-demo {
     background-color: $secondary;
     color: white;
-    display: inline-block;
+    margin-left: 12px;
+    padding: 0 7px;
+    border-radius: 10px;
+}
+
+// contact
+#lets-do-this p {
+    background-color: $secondary;
+    color: white;
+    padding: 0 1em;
+    border-radius: 1em;
+    font-weight: bold;
+    margin: 1em 0;
 }

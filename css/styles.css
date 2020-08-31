@@ -427,18 +427,43 @@ h3,
   margin: 1em 0;
 }
 
-/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
-.project-inner-html #project-github {
-  background-color: #85ccc8;
-  color: white;
-  display: inline-block;
+/* line 55, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+.contact-container p {
+  padding: 0 1em;
 }
 
-/* line 8, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
-.project-inner-html #project-demo {
+/* line 60, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
+footer p {
+  color: #85ccc8;
+  font-size: .8em;
+}
+
+/* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#project-github {
+  background-color: #85ccc8;
+  color: white;
+  margin-right: 12px;
+  padding: 0 7px;
+  border-radius: 10px;
+}
+
+/* line 10, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#project-demo {
   background-color: #e1785b;
   color: white;
-  display: inline-block;
+  margin-left: 12px;
+  padding: 0 7px;
+  border-radius: 10px;
+}
+
+/* line 19, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#lets-do-this p {
+  background-color: #e1785b;
+  color: white;
+  padding: 0 1em;
+  border-radius: 1em;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
@@ -537,7 +562,7 @@ h3,
 }
 
 /* line 84, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
-.project-inner-html {
+.project-inner-html-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -546,6 +571,32 @@ h3,
   border-radius: 5%;
   height: 286px;
   width: 286px;
+}
+
+/* line 94, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.project-inner-html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 100, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+.contact-container {
+  width: 100%;
+  background-color: #85ccc8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 108, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+footer {
+  background-color: #e1785b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* line 1, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
@@ -576,11 +627,19 @@ h3,
   padding: 1em 2em;
 }
 
-/* line 29, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+/* line 27, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
 .row img {
   width: 18em;
   border-radius: 5%;
   border: 1px solid #85ccc8;
+}
+
+/* line 34, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+.footer-container svg {
+  fill: #85ccc8;
+  width: 3em;
+  height: 3em;
+  margin: 1em 1em;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */

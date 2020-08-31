@@ -81,12 +81,32 @@
 }
 
 // Project
-.project-inner-html {
+.project-inner-html-container {
     @include flexColumnCenter;
     justify-content: center;
     border: 1px solid $secondary;
     border-radius: 5%;
     height: 286px;
     width: 286px;
+}
+
+
+.project-inner-html {
+    @include flexColumnCenter;
+    justify-content: center;
+}
+
+// Contact
+.contact-container {
+    width: 100%;
+    background-color: $primary;
+    @include flexColumnCenter;
+    justify-content: center;
+}
+
+// Footer
+footer {
+    background-color: $secondary;
+    @include flexColumnCenter;
 }
 

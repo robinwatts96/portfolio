@@ -24,10 +24,16 @@
 }
 
 // portfolio
-
-
 .row img {
     width: 18em;
     border-radius: 5%;
     border: 1px solid $primary;
+}
+
+// Footer
+.footer-container svg {
+    fill: $primary;
+    width: 3em;
+    height: 3em;
+    margin: 1em 1em;
 }
