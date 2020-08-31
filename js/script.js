@@ -6,3 +6,5 @@ projects.forEach( project => project.addEventListener('click', function (){ show
 // Helpers =============================================
 const showProjectDesc = project => {
 }
+
+...
