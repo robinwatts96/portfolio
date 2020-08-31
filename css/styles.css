@@ -492,7 +492,6 @@ header h2 {
 
 /* line 66, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
 .column {
-  border: 1px black solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -530,6 +529,8 @@ header h2 {
 /* line 29, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
 .row img {
   width: 18em;
+  border-radius: 5%;
+  border: 1px solid #85ccc8;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
