@@ -5,12 +5,22 @@
     margin: 1rem 0;
 }
 
+// Arrow
 #arrow {
     transform: rotate(90deg);
     width: 2rem;
     height: 2rem;
     fill: white;
 }
+
+#arrow:hover {
+    fill: $primary;
+    width: 3rem;
+    height: 3rem;
+    transition: fill 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out;
+    // transition: scale .2s;
+}
+
 
 // Skills
 #treehouse {

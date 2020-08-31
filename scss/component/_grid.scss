@@ -63,14 +63,11 @@
 }
 
 // Portfolio
+
 .column {
-//   border: 1px black solid; 
   @include flexColumnCenter;
   margin: 2em 0;
-}
-
-.row .container {
-    // margin-left: 0;
+  
 }
 
 #portfolio-header-container {
@@ -88,7 +85,23 @@
     border-radius: 5%;
     height: 286px;
     width: 286px;
+ 
 }
+
+// @media only screen and (min-width: 768px) {
+//     .project-inner-html-container {
+//         opacity: 0;
+//     }
+
+//     .project-inner-html-container:active {
+//         opacity: 1;
+//     }
+
+//     .project-inner-html-container:hover {
+//         opacity: 1;
+//         transition: opacity 1s;
+//     }
+// }
 
 
 .project-inner-html {
