@@ -400,14 +400,14 @@ header h2 {
 }
 
 /* line 28, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
-.skills-education-container h3 {
+h3 {
   margin-top: 1em;
   border-bottom: 1px solid #e1785b;
   padding-bottom: 3px;
 }
 
 /* line 34, ../../../OneDrive/Documents/GitHub/portfolio/scss/base/_typography.scss */
-.skills-education-container h3,
+h3,
 .skills-education-container h4 {
   font-weight: bold;
   margin: 1em 0;
@@ -496,6 +496,16 @@ header h2 {
   flex-direction: column;
   align-items: center;
   margin: 2em 0;
+}
+
+/* line 76, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+#portfolio-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80vw;
 }
 
 /* line 1, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */

@@ -67,5 +67,16 @@
 //   border: 1px black solid; 
   @include flexColumnCenter;
   margin: 2em 0;
-
 }
+
+.row .container {
+    // margin-left: 0;
+}
+
+#portfolio-header-container {
+    @include flexColumnCenter;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80vw;
+}
+

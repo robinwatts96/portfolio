@@ -25,14 +25,21 @@ header h2 {
     
 }
 
-.skills-education-container h3 {
+h3 {
     margin-top: 1em;
     border-bottom: 1px solid $secondary;
     padding-bottom: 3px;
 }
 
-.skills-education-container h3,
+h3,
 .skills-education-container h4 {
     font-weight: bold;
     margin: 1em 0;
 }
+
+// Portfolio
+// #portfolio-header {
+//     text-align: center;
+//     border-bottom: 1px solid black;
+//     margin: 1em;
+// }
