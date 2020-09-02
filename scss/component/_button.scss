@@ -15,38 +15,38 @@
     border-radius: 10px;
 }
 
-// Filter
-.filter {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
+// // Filter
+// .filter {
+//     list-style: none;
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     margin: 0 auto;
+//     flex-wrap: wrap;
+//   }
   
-  .active {
-    background-color: $secondary;
-    color: white;
-  }
+//   .active {
+//     background-color: $secondary;
+//     color: white;
+//   }
   
-  .filter li {
-    font-size: .8em;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    padding: 4px 7px;
-    border: 2px solid $primary;
-    border-radius: 15px;
-    transition: background-color .3s;
-  }
+//   .filter li {
+//     font-size: .8em;
+//     margin-left: 5px;
+//     margin-right: 5px;
+//     margin-top: 5px;
+//     padding: 4px 7px;
+//     border: 2px solid $primary;
+//     border-radius: 15px;
+//     transition: background-color .3s;
+//   }
   
-  .filter li:hover {
-    transition: background-color .5s;
-    background-color: $secondary;
-    color: white;
-    cursor: pointer;
-  }
+//   .filter li:hover {
+//     transition: background-color .5s;
+//     background-color: $secondary;
+//     color: white;
+//     cursor: pointer;
+//   }
 
 // contact
 #lets-do-this {
