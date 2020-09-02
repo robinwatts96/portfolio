@@ -720,23 +720,24 @@ footer {
 }
 
 /* line 26, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-.nav-bar-li li:visited {
+.nav-bar-li li:visited,
+.nav-bar-li li:active {
   color: white;
 }
 
-/* line 30, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+/* line 31, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
 .nav-bar-li li:hover {
   color: #e1785b;
   transition: color .2s ease-in;
 }
 
-/* line 35, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+/* line 36, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
 .nav-bar-li a:hover {
   text-decoration: none;
 }
 
 @media (min-width: 600px) {
-  /* line 41, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 42, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar {
     flex-direction: row;
     justify-content: space-between;
@@ -744,16 +745,16 @@ footer {
     border-bottom-left-radius: 95%;
     border-bottom-right-radius: 0%;
   }
-  /* line 48, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 49, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li li {
     font-size: .9em;
   }
-  /* line 51, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 52, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -1em;
     margin-right: 2.5em;
   }
-  /* line 55, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 56, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -1.5em;
     margin-left: 2.5em;
@@ -761,16 +762,16 @@ footer {
 }
 
 @media (min-width: 850px) {
-  /* line 66, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 67, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -2em;
     margin-right: 3em;
   }
-  /* line 70, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 71, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li li {
     font-size: 1.2em;
   }
-  /* line 73, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 74, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -2.2em;
     margin-left: 4em;
