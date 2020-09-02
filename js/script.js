@@ -24,3 +24,45 @@ const showProjectDesc = project => {
     }
   });
 }
+
+
+// Filter
+const filterArea = document.querySelector('.display-port');
+
+function activate(target) {
+  if (target.tagName === 'LI') {
+    const removeActive = document.querySelector('.filter').children;
+    if (target.className !== 'active') {
+      for (i = 0; i < removeActive.length; i++) {
+        removeActive[i].className = '';
+      }
+      target.className = 'active';
+    }
+  }
+}
+
+function filter(target) {
+  if (target.tagName === 'LI') {
+    const searchType = target.getAttribute('id');
+    const card = document.querySelectorAll('.project');
+
+    if (searchType === 'all') {
+      for (i = 0; i < card.length; i++) {
+        card[i].style.display = '';
+      }
+    } else {
+      for (i = 0; i < card.length; i++) {
+
+        const compare = document.querySelectorAll('.project')[i].className;
+        const indexSearch = compare.indexOf(searchType);
+
+        if (indexSearch > -1) {
+          card[i].style.display = '';
+        } else {
+          card[i].style.display = 'none';
+        }
+
+      }
+    }
+  }
+}

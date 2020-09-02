@@ -38,6 +38,14 @@
     width: 18em;
     border-radius: 5%;
     border: 1px solid $primary;
+    box-shadow: 10px 10px 8px hsla(0,0%,0%, .2);
+    transition: transform .3s ease-in;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
 }
 
 // Footer

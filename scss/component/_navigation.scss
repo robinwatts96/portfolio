@@ -19,11 +19,20 @@
     display: inline;
     padding: 0 .3em;
     color: white;
+    transition: color .3s ease-in;
+}
+
+.nav-bar-li li:visited {
+    color: white;
 }
 
 .nav-bar-li li:hover {
     color: $secondary;
-    transition: color .3s ease-in;
+    transition: color .2s ease-in;
+}
+
+.nav-bar-li a:hover {
+    text-decoration: none;
 }
 
 // Media

@@ -123,3 +123,21 @@ footer {
     @include flexColumnCenter;
 }
 
+@media (min-width: 600px) {
+    .contact-container {
+        height: 70vh;
+    }
+
+    .contact-container h3 {
+        font-size: 2em;
+    }
+
+    .contact-container p {
+        font-size: 1.3em;
+    }
+
+    #lets-do-this p {
+        font-size: 2em;
+    }
+}
+

@@ -457,13 +457,63 @@ footer p {
 }
 
 /* line 19, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.filter {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* line 28, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.active {
+  background-color: #e1785b;
+  color: white;
+}
+
+/* line 33, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.filter li {
+  font-size: .8em;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 4px 7px;
+  border: 2px solid #85ccc8;
+  border-radius: 15px;
+  transition: background-color .3s;
+}
+
+/* line 44, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+.filter li:hover {
+  transition: background-color .5s;
+  background-color: #e1785b;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 52, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#lets-do-this {
+  transition: transform .2s ease-out;
+}
+
+/* line 56, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
 #lets-do-this p {
   background-color: #e1785b;
   color: white;
   padding: 0 1em;
   border-radius: 1em;
   font-weight: bold;
-  margin: 1em 0;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 68, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#lets-do-this:hover {
+  transform: scale(1.2);
+  transition: transform .5s ease-in-out;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
@@ -599,6 +649,25 @@ footer {
   align-items: center;
 }
 
+@media (min-width: 600px) {
+  /* line 127, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+  .contact-container {
+    height: 70vh;
+  }
+  /* line 131, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+  .contact-container h3 {
+    font-size: 2em;
+  }
+  /* line 135, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+  .contact-container p {
+    font-size: 1.3em;
+  }
+  /* line 139, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
+  #lets-do-this p {
+    font-size: 2em;
+  }
+}
+
 /* line 1, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
 #profile-img {
   width: 10rem;
@@ -640,9 +709,18 @@ footer {
   width: 18em;
   border-radius: 5%;
   border: 1px solid #85ccc8;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+  transition: transform .3s ease-in;
 }
 
-/* line 44, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+/* line 45, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
+.row img:hover {
+  transform: scale(1.1);
+  transition: transform .5s ease-in-out;
+  cursor: pointer;
+}
+
+/* line 52, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
 .footer-container svg {
   fill: #85ccc8;
   width: 3em;
@@ -673,16 +751,27 @@ footer {
   display: inline;
   padding: 0 .3em;
   color: white;
-}
-
-/* line 24, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-.nav-bar-li li:hover {
-  color: #e1785b;
   transition: color .3s ease-in;
 }
 
+/* line 25, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li li:visited {
+  color: white;
+}
+
+/* line 29, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li li:hover {
+  color: #e1785b;
+  transition: color .2s ease-in;
+}
+
+/* line 34, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li a:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 600px) {
-  /* line 31, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 40, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar {
     flex-direction: row;
     justify-content: space-between;
@@ -690,16 +779,16 @@ footer {
     border-bottom-left-radius: 95%;
     border-bottom-right-radius: 0%;
   }
-  /* line 38, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 47, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li li {
     font-size: .9em;
   }
-  /* line 41, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 50, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -1em;
     margin-right: 2.5em;
   }
-  /* line 45, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 54, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -1.5em;
     margin-left: 2.5em;
@@ -707,16 +796,16 @@ footer {
 }
 
 @media (min-width: 850px) {
-  /* line 56, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 65, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -2em;
     margin-right: 3em;
   }
-  /* line 60, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 69, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li li {
     font-size: 1.2em;
   }
-  /* line 63, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 72, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -2.2em;
     margin-left: 4em;
