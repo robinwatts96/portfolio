@@ -68,6 +68,9 @@
 #lets-do-this:hover {
     transform: scale(1.2);
     transition: transform .5s ease-in-out;
+    text-decoration: none;
 }
 
-
+#lets-do-this a:hover {
+    text-decoration: none;
+}

@@ -1,3 +1,6 @@
+window.alert("Hello! Welcome to my portfolio. Feel free to contact me if you have any questions about my work, or if you would like to reach out for a chat.");
+
+
 // Variables =============================================
 const portfolio = document.querySelectorAll('.project');
 // loop over each project and attach event listner
