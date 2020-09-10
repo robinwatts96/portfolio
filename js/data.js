@@ -2,7 +2,7 @@ const projects = [
     {
       title: 'Web App Dashboard',
       desc: 'An interactive web app designed from a provided mockup. For this project, vanilla JavaScript was used alongside Chart.js for the pages data and functionality.',
-      gitHub: 'https://www.google.com/',
+      gitHub: 'https://github.com/robinwatts96/webapp-dashboard',
       Demo: 'https://github.com/robinwatts96/webapp-dashboard'
     },
     {
