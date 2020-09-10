@@ -2,7 +2,7 @@ const projects = [
     {
       title: 'Web App Dashboard',
       desc: 'An interactive web app designed from a provided mockup. For this project, vanilla JavaScript was used alongside Chart.js for the pages data and functionality.',
-      gitHub: 'https://github.com/robinwatts96/webapp-dashboard',
+      gitHub: 'https://www.google.com/',
       Demo: 'https://github.com/robinwatts96/webapp-dashboard'
     },
     {
@@ -33,6 +33,6 @@ const projects = [
         title: 'Full Stack Conf',
         desc: 'A site styled and structured used Bootstrap. Responsive utility classes are used amongst other Bootstrap features.',
         gitHub: 'https://github.com/robinwatts96/full-stack-conf',
-        Demo: 'https://github.com/robinwatts96/webapp-dashboard'
+        Demo: 'https://robinwatts96.github.io/full-stack-conf'
       }   
   ];
