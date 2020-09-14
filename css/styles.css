@@ -478,6 +478,12 @@ footer p {
 #lets-do-this:hover {
   transform: scale(1.2);
   transition: transform .5s ease-in-out;
+  text-decoration: none;
+}
+
+/* line 74, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_button.scss */
+#lets-do-this a:hover {
+  text-decoration: none;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_grid.scss */
@@ -641,7 +647,7 @@ footer {
 }
 
 /* line 9, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
-#arrow {
+.arrow {
   transform: rotate(90deg);
   width: 2rem;
   height: 2rem;
@@ -649,7 +655,7 @@ footer {
 }
 
 /* line 16, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_images.scss */
-#arrow:hover {
+.arrow:hover {
   fill: #85ccc8;
   width: 3rem;
   height: 3rem;
@@ -711,7 +717,8 @@ footer {
 }
 
 /* line 18, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-.nav-bar-li li {
+.nav-bar-li-li,
+.nav-bar-li-a {
   display: inline;
   padding: 0 .3em;
   color: white;
@@ -719,25 +726,26 @@ footer {
   font-size: .89em;
 }
 
-/* line 26, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-.nav-bar-li li:visited,
-.nav-bar-li li:active {
+/* line 27, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li-li:visited,
+.nav-bar-li-li:active {
   color: white;
 }
 
-/* line 31, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-.nav-bar-li li:hover {
+/* line 32, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+.nav-bar-li-li:hover,
+.nav-bar-li-a:hover {
   color: #e1785b;
   transition: color .2s ease-in;
 }
 
-/* line 36, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+/* line 38, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
 .nav-bar-li a:hover {
   text-decoration: none;
 }
 
 @media (min-width: 600px) {
-  /* line 42, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 44, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar {
     flex-direction: row;
     justify-content: space-between;
@@ -745,16 +753,17 @@ footer {
     border-bottom-left-radius: 95%;
     border-bottom-right-radius: 0%;
   }
-  /* line 49, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-  .nav-bar-li li {
+  /* line 51, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  .nav-bar-li-li,
+  .nav-bar-li-a {
     font-size: .9em;
   }
-  /* line 52, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 55, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -1em;
     margin-right: 2.5em;
   }
-  /* line 56, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 59, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -1.5em;
     margin-left: 2.5em;
@@ -762,16 +771,17 @@ footer {
 }
 
 @media (min-width: 850px) {
-  /* line 67, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 70, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   .nav-bar-li {
     margin-top: -2em;
     margin-right: 3em;
   }
-  /* line 71, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
-  .nav-bar-li li {
+  /* line 74, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  .nav-bar-li-li,
+  .nav-bar-li-a {
     font-size: 1.2em;
   }
-  /* line 74, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
+  /* line 78, ../../../OneDrive/Documents/GitHub/portfolio/scss/component/_navigation.scss */
   #rob-watts {
     margin-top: -2.2em;
     margin-left: 4em;

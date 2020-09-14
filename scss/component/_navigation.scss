@@ -15,7 +15,8 @@
     padding: 0;
 }
 
-.nav-bar-li li {
+.nav-bar-li-li,
+.nav-bar-li-a {
     display: inline;
     padding: 0 .3em;
     color: white;
@@ -23,12 +24,13 @@
     font-size: .89em;
 }
 
-.nav-bar-li li:visited,
-.nav-bar-li li:active {
+.nav-bar-li-li:visited,
+.nav-bar-li-li:active {
     color: white;
 }
 
-.nav-bar-li li:hover {
+.nav-bar-li-li:hover,
+.nav-bar-li-a:hover {
     color: $secondary;
     transition: color .2s ease-in;
 }
@@ -46,7 +48,8 @@
         border-bottom-left-radius: 95%;
         border-bottom-right-radius: 0%;
     }
-    .nav-bar-li li {
+    .nav-bar-li-li,
+    .nav-bar-li-a {
         font-size: .9em;
     }
     .nav-bar-li {
@@ -68,7 +71,8 @@
         margin-top: -2em;
         margin-right: 3em;
     }
-    .nav-bar-li li {
+    .nav-bar-li-li,
+    .nav-bar-li-a {
         font-size: 1.2em;
     }
     #rob-watts {
