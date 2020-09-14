@@ -12,7 +12,7 @@ const showProjectDesc = project => {
   // loop over the projects array and find the project that matches
   projects.filter( p => {
     if (projectTitle === p.title) {
-      const {title, desc, gitHub} = p;
+      const {title, desc, gitHub, liveDemo} = p;
       project.innerHTML = 
         `<div class="project-inner-html-container">
           <div class="project-inner-html">
@@ -20,8 +20,8 @@ const showProjectDesc = project => {
             <p>${desc}</p>
           </div>
           <div class="project-button-container"> 
-            <a id="project-github" href="gitHub" target="_blank">Git Hub</a>
-            <a id="project-demo" href="Demo" target="_blank">Demo</a>
+            <a id="project-github" href=${gitHub} target="_blank">Git Hub</a>
+            <a id="project-demo" href=${liveDemo} target="_blank">Demo</a>
           </div>
         </div>`;
     }
