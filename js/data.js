@@ -24,15 +24,15 @@ const projects = [
         liveDemo: 'https://interactive-photo-gallery.vercel.app/'
       },
       {
-        title: 'Online Registration Form',
-        desc: 'A newsletter signup form built via HTML forms and designed for mobile first, which expands responsibly depending on what device you are viewing on.',
-        gitHub: 'https://github.com/robinwatts96/Online-Registration-Form',
+        title: 'The Daily Hobbit',
+        desc: 'An old fashioned styled newspaper with a Lord Of The Rings twist. This uses HTML and CSS to create a fully responsive deisgn, with both Flexbox and CSS Grid used throughout for the different sections.',
+        gitHub: 'https://github.com/robinwatts96/The-Daily-Hobbit',
         liveDemo: 'https://online-registration-form.vercel.app/'
       },
       {
         title: 'Full Stack Conf',
         desc: 'A site styled and structured used Bootstrap. Responsive utility classes are used amongst other Bootstrap features.',
         gitHub: 'https://github.com/robinwatts96/full-stack-conf',
-        liveDemo: 'https://full-stack-conf.vercel.app/'
+        liveDemo: 'https://the-daily-hobbit.vercel.app/'
       }   
   ];
