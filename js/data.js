@@ -25,7 +25,7 @@ const projects = [
       },
       {
         title: 'The Daily Hobbit',
-        desc: 'An old fashioned styled newspaper with a Lord Of The Rings twist. This uses HTML and CSS to create a fully responsive deisgn, with both Flexbox and CSS Grid used throughout for the different sections.',
+        desc: 'An old fashioned styled newspaper with a Lord Of The Rings twist. This uses HTML and CSS to create a fully responsive design, with both Flexbox and CSS Grid used throughout for the different sections.',
         gitHub: 'https://github.com/robinwatts96/The-Daily-Hobbit',
         liveDemo: 'https://the-daily-hobbit.vercel.app/'
       },
