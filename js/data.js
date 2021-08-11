@@ -33,6 +33,6 @@ const projects = [
         title: 'Full Stack Conf',
         desc: 'A site styled and structured used Bootstrap. Responsive utility classes are used amongst other Bootstrap features.',
         gitHub: 'https://github.com/robinwatts96/full-stack-conf',
-        liveDemo: 'https://the-daily-hobbit.vercel.app/'
+        liveDemo: 'https://full-stack-conf.vercel.app/'
       }   
   ];
