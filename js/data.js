@@ -24,10 +24,10 @@ const projects = [
         liveDemo: 'https://interactive-photo-gallery.vercel.app/'
       },
       {
-        title: 'The Daily Hobbit',
-        desc: 'An old fashioned styled newspaper with a Lord Of The Rings twist. This uses HTML and CSS to create a fully responsive design, with both Flexbox and CSS Grid used throughout for the different sections.',
-        gitHub: 'https://github.com/robinwatts96/The-Daily-Hobbit',
-        liveDemo: 'https://the-daily-hobbit.vercel.app/'
+        title: 'Online Registration Form',
+        desc: 'A responsive online registration form, built using HTML & CSS.',
+        gitHub: 'https://github.com/robinwatts96/Online-Registration-Form',
+        liveDemo: 'https://online-registration-form.vercel.app/'
       },
       {
         title: 'Full Stack Conf',
