@@ -5,6 +5,7 @@ window.alert("Hello! Welcome to my portfolio. Feel free to contact me if you hav
 const portfolio = document.querySelectorAll('.project');
 // loop over each project and attach event listner
 portfolio.forEach( project => project.addEventListener('click', function (){ showProjectDesc(this); }));
+
 // Helpers =============================================
 const showProjectDesc = project => {
   // get the data-title attribute value
