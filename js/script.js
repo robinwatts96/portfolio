@@ -1,10 +1,11 @@
-window.alert("Hello! Welcome to my portfolio. Feel free to contact me if you have any questions about my work, or if you would like to reach out for a chat.");
-
-
 // Variables =============================================
 const portfolio = document.querySelectorAll('.project');
+
 // loop over each project and attach event listner
-portfolio.forEach( project => project.addEventListener('click', function (){ showProjectDesc(this); })); 
+portfolio.forEach( (project) => {
+  project.addEventListener('click', function (){ showProjectDesc(this); })
+
+});
 
 // Helpers =============================================
 const showProjectDesc = project => {
@@ -17,8 +18,8 @@ const showProjectDesc = project => {
       project.innerHTML = 
         `<div class="project-inner-html-container">
           <div class="project-inner-html">
-            <h4>${title}</h4>
-            <p>${desc}</p>
+          <h4>${title}</h4>
+          <p>${desc}</p>
           </div>
           <div class="project-button-container"> 
             <a id="project-github" href=${gitHub} target="_blank">Git Hub</a>
@@ -28,5 +29,23 @@ const showProjectDesc = project => {
     }
   });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

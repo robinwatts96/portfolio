@@ -11,42 +11,19 @@
     background-color: $secondary;
     color: white;
     margin-left: 12px;
+    margin-bottom: 12px;
     padding: 0 7px;
     border-radius: 10px;
 }
 
-// // Filter
-// .filter {
-//     list-style: none;
-//     display: flex;
-//     justify-content: center;
-//     width: 100%;
-//     margin: 0 auto;
-//     flex-wrap: wrap;
-//   }
-  
-//   .active {
-//     background-color: $secondary;
-//     color: white;
-//   }
-  
-//   .filter li {
-//     font-size: .8em;
-//     margin-left: 5px;
-//     margin-right: 5px;
-//     margin-top: 5px;
-//     padding: 4px 7px;
-//     border: 2px solid $primary;
-//     border-radius: 15px;
-//     transition: background-color .3s;
-//   }
-  
-//   .filter li:hover {
-//     transition: background-color .5s;
-//     background-color: $secondary;
-//     color: white;
-//     cursor: pointer;
-//   }
+#close-btn {
+    margin-left: 90%;
+    margin-top: -2%;
+    width: 2em;
+    height: auto;
+    border: none;
+    box-shadow: none;
+}
 
 // contact
 #lets-do-this {

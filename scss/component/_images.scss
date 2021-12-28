@@ -55,3 +55,29 @@
     height: 3em;
     margin: 1em 1em;
 }
+
+
+// SVG Blob
+.svg {
+    overflow: hidden;
+  }
+
+#visual {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    #visual {
+        display:initial;
+    }
+}
+
+
+// Media
+@media (min-width: 600px) {
+    #profile-img {
+        width: 12.5rem;
+        height: 12.5rem;
+        margin: 4rem 0 0 0;
+    }   
+}

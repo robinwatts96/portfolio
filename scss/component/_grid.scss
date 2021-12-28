@@ -27,14 +27,14 @@
 // Skills & Education
 .background-blue {
     background-color: $primary;
-    width: 100vw;
+    width: 100%;
     padding: 3em 0;
     @include flexColumnCenter;
 }
 
 .skills-education-container {
     background-color: white;
-    width: 80vw;
+    width: 80%;
     max-width: 675px;
     border-radius: .5em;
     @include flexColumnCenter;
@@ -74,8 +74,9 @@
     @include flexColumnCenter;
     margin: 0 auto;
     justify-content: center;
-    width: 80vw;
+    width: 80%;
 }
+
 
 // Project
 .project-inner-html-container {
@@ -85,28 +86,18 @@
     border-radius: 5%;
     height: 286px;
     width: 286px;
+    // position: relative;
  
 }
-
-// @media only screen and (min-width: 768px) {
-//     .project-inner-html-container {
-//         opacity: 0;
-//     }
-
-//     .project-inner-html-container:active {
-//         opacity: 1;
-//     }
-
-//     .project-inner-html-container:hover {
-//         opacity: 1;
-//         transition: opacity 1s;
-//     }
-// }
-
 
 .project-inner-html {
     @include flexColumnCenter;
     justify-content: center;
+    height: 70%;
+}
+
+.project-inner-html h4 {
+    margin-top: 0;
 }
 
 // Contact
@@ -124,9 +115,9 @@ footer {
 }
 
 @media (min-width: 600px) {
-    .contact-container {
-        height: 70vh;
-    }
+    // .contact-container {
+    //     height: 70vh;
+    // }
 
     .contact-container h3 {
         font-size: 2em;
